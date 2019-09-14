@@ -26,6 +26,7 @@ Setup Desired Capabilities For "${mobile_os}" device
     ...     appPackage=${DEVICE.${mobile_os}.APP_PACKAGE}
     ...     appActivity=${DEVICE.${mobile_os}.APP_ACTIVITY}
     ...     noReset=${DEVICE.${mobile_os}.NO_RESET}
+    ...     newCommandTimeout=3600
     Comment     Set desired caps
     Set Suite Variable      ${desired_capabilities}     ${caps}
     Console Log         ${caps}
