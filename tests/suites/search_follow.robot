@@ -16,3 +16,4 @@ Scenario: Searching Person
     Given person name is "fachrulch"
     When I search person name
     Then I should see person profile
+    And I follow him

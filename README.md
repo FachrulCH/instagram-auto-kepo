@@ -18,3 +18,8 @@ Installation
 On terminal:
 
 `pip3 install -r requirements.txt`
+
+### Run test
+Start Appium `appium --log-level warn:debug `
+Run test `robot tests/suites/search_follow.robot
+`
